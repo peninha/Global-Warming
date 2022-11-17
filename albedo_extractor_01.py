@@ -25,7 +25,7 @@ for x in range(height):      # this row
     for y in range(width):   # and this row was exchanged
         r, g, b = pixels[y, x]
         Hex[x, y] = (f"{r:02x}{g:02x}{b:02x}")
-        Albedo[x, y] = Color2Albedo[Hex[x,y]]
+        #Albedo[x, y] = Color2Albedo[Hex[x,y]]
     AreaWeight[x] = pi/512*(cos(x*pi/512) - cos((x+1)*pi/512))
         # in case your image has an alpha channel
         # r, g, b, a = pixels[x, y]
