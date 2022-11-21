@@ -5,10 +5,8 @@ Created on Mon Oct 31 14:47:55 2022
 @author: Pena
 """
 
-from numpy import radians, degrees, sin, cos, pi
+from numpy import radians, sin, cos, pi
 import numpy as np
-import scipy.integrate as integrate
-import matplotlib.pyplot as plt
 
 r = 1
 Is = 1

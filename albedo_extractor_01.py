@@ -8,7 +8,7 @@ Created on Tue Nov 15 00:49:56 2022
 import numpy as np
 import pickle
 from PIL import Image
-from numpy import sin, cos, pi
+
 with open('data/Color2Albedo.pkl', 'rb') as f:
     Color2Albedo = pickle.load(f)
 
